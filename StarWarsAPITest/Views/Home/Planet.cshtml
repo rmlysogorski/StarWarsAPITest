@@ -1,0 +1,15 @@
+﻿@model StarWarsAPITest.Models.Planet
+@{
+    ViewBag.Title = "Planet";
+}
+
+<h2>@ViewBag.Title</h2>
+
+<div style="display:block;width:500px">
+    <div style="display:inline-block;float:left">
+        <p class="text-right">Name:&nbsp;</p>
+    </div>
+    <div style="display:inline-block">
+        <p> @Model.Name</p>
+    </div>
+</div>

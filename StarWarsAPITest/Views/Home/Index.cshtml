@@ -1,0 +1,15 @@
+﻿@{
+    ViewBag.Title = "Star Wars API";
+}
+
+<h2>@ViewBag.Title</h2>
+
+<form action="../Home/Person" method="post">
+    <input name="i" type="number" min="1" value="1" placeholder="Person: " />
+    <input type="submit" value="Get Person" />
+</form>
+
+<form action="../Home/Planet" method="post">
+    <input name="i" type="number" min="1" value="1" placeholder="Planet: " />
+    <input type="submit" value="Get Planet" />
+</form>
